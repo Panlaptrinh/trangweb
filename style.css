@@ -1,0 +1,214 @@
+body{
+	margin :0 ; padding :0;
+	font-family: sans-serit,arial;
+	font-size: 12px;
+	/*#E5ECF4;
+  */
+  }
+  .container{
+	margin : 0  70px;
+	background :white;
+	font-size:17px;
+  }
+  .background-start{
+  }
+  .drop-down ul{
+	list-style-type: none;
+	background :#115D9D ;
+	padding: 0 ; margin: 0 ;
+	 min-width: 350px;
+  }
+  .drop-down ul li{
+	  position: relative;
+	display: inline-block;
+	border-left: 1px solid #ccc;
+  }
+  
+  .drop-down ul li a{
+	text-decoration : none;
+	color: white;
+	display: block;
+	padding : 0 20px;
+	height: 42px;
+	line-height: 42px;
+  }
+  
+  .drop-down a:hover {
+	  background :#37b2f0 ; 
+  }
+  
+  .drop-down ul li  >  .first-ul,.second-child{
+	display : none;
+	background: white;
+	position: absolute;
+  }
+  .drop-down ul li > ul a {
+	color: black;
+  
+  }
+  .drop-down ul li:hover > .first-ul{
+	   display : block;
+  }
+  .drop-down ul li > .second-child{
+	color: black;
+	background :white;
+	position: absolute;
+	min-width: 350px;
+  }
+  .drop-down ul li:hover > .second-child
+  {
+		display: block;
+  }
+  
+  input[type="text"] {
+	 border-radius: 10px;
+	 padding : 4px 12px;
+  }
+  
+  a{text-decoration: none; color : #08c;}
+  
+  a:hover {color: black;}
+  
+  input[type="text"] {
+	 border-radius: 50px;
+	 border: 1px solid grey;
+	 padding: 6px 12px;
+  }
+  
+  input[type="user"], input[type="password"] {
+	 width: 200px;
+	 height:20px;
+	 border-radius: 5px;
+	 border : 1px solid grey;
+  }
+  
+  button[type="sumbit"]{
+  margin-top:10px;
+  margin-bottom:10px;
+  }
+  ul {
+	list-style-image: url('https://mobiriseicons.com/svg/24px/mbri-magic-stick.svg');
+  }
+  li{
+   line-height: 20px;
+	url(https://mobiriseicons.com/svg/16px/mbri-magic-stick.svg");
+  }
+  button[type="sumbit"] a{
+	color : black;
+	padding : 5px;
+  }
+  
+  .side-bar{
+	 width:25% ; 
+	 float : left;
+  }
+  
+  .menu-content{
+  padding-left : 350px;
+  }
+  
+  h4{
+  text-align: center;
+  }
+  
+  .side-bar  {padding-left :10px;
+  
+  }
+  
+  .side-bar h4{
+	 font-size: 15px;
+	 color: #666666;
+	 background-image: linear-gradient(white,#c4c4c4);
+	 height: 17px;
+	 line-height: 0px;
+  }
+  
+  .side-bar #block {position: relative;}
+  .side-bar  .block-search{
+	 border : 1px solid #c4c4c4;
+	 border-radius:10px;
+   }
+  .side-bar .block-search h4 {}
+  .side-bar .block-search form{height:35px;}
+  .side-bar .block-search #search{
+	   margin-left: 45px;
+	   top: 51px;
+		 position: absolute;
+  
+	   width:170px;
+  }
+  
+  .side-bar .block-username {
+	border : 1px solid  #e3e3e3;
+	margin-top : 13px;
+  }
+  .side-bar .block-username h4{}
+  .side-bar .block-username form{
+	 margin-left: 15px;
+  }
+  .side-bar .block-username #name{
+	 font-size: 15px;
+  }
+  
+  input[type="user"]:hover{
+	 background : lightblue;
+  }
+  input[type="password"]:hover  {
+	 background : lightblue;
+  }
+  
+  .side-bar .block-news,.block-link {
+	 border: 1px solid #c4c4c4;
+	 margin-top:13px;
+  }
+  .side-bar .child-news{
+	  margin-right:15px;
+  }
+  .drop-down{
+	 z-index: 1;
+	 position: relative;
+  }
+  .menu-container{
+	position: absolute;
+	margin-top: 10px;
+  }
+  .side-bar .block-link{
+	position: relative;
+  }
+  .side-bar .block-link #form-select{
+	 height:50px;
+	 margin-left : 50px;
+	padding-right:40px;
+  }
+  .side-bar #list-link{
+	 height:30px;
+	width: 100%;
+	border : 1px solid #c4c4c4;
+	border-radius : 20px;
+  } 
+  .menu-content #content{
+	 margin-right:80px;
+  }
+  .menu-content #content h4{
+	text-align: left; 
+	margin-left : 15px;
+	border-bottom: 1px solid #c4c4c4;
+	 padding-bottom : 12px;
+	color: #0056e0;
+  }
+  .menu-content #content li {
+	margin-right: 53px;
+	font-size: 15px;
+  }
+  .menu-content .content1,.content2,.content3 {
+	border : 1px solid #c4c4c4;
+	margin-bottom: 13px;
+  }
+  
+  .menu-content .content1{}
+  .menu-content .content2 {}
+  .menu-content .content3 {}
+  
+  .footer{
+  
+  }
